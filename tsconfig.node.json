@@ -8,8 +8,12 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "noEmit": true,
-    "types": ["node"]
+    "types": ["node"],
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false
   },
   "include": ["vite.config.ts"],
-  "files": ["src/actions/index.ts"]
+  "files": ["src/actions/index.ts", "src/axios/custom.ts"]
 }

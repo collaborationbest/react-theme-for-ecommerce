@@ -6,7 +6,6 @@ import customFetch from "../axios/custom";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { checkCheckoutFormData } from "../utils/checkCheckoutFormData";
-import { useEffect } from "react";
 
 /*
 address: "Marka Markovic 22"
